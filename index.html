@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2598/2598691.png" type="image/x-icon">
+
+</head>
+<body>
+
+    <audio id="click" src="sound/click.mp3"></audio>
+    <audio id="loose" src="sound/loose.mp3"></audio>
+    <audio id="win" src="sound/win.mp3"></audio>
+
+    <div class="wrapper">
+        <img src="https://cdn-icons-png.flaticon.com/512/2598/2598691.png" alt=""  >
+        <h3>Number guessing game</h3>
+        <p>Try and guess a random number between 1 and 100. <br>
+        <br>You have 10 attempts to guess the right number.</p>
+        <br>
+   
+     <form action="#">
+        <label for="guessField" id="guess">Guess a number</label> <br>
+        <input type="text" id="guessField" class="guessField">
+        <input type="submit" id="subt" value="Submit Guess" class="guessSubmit">
+     </form>
+
+     <div class="resultParas">
+        <p>Previous guess: <span class="guesses"></span></p>
+        <p>Guesses Remaining : <span class="lastResult">10</span></p>
+        <p class="lowOrHi"></p>
+     </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

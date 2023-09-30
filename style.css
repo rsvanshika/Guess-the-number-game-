@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#fff;
+}
+img{
+    border-radius: 100px;
+    border: 2px solid white;
+    width: 100px;
+}
+.wrapper{
+    width:50%;
+    background-color:#6c6666;
+    height: 90vh;
+    margin:4rem auto;
+    border: 30px solid grey;
+    padding: 1.5rem;
+    text-align: center;
+}
+h3{
+ background-color:grey;
+ line-height: 3rem;
+}
+p{
+    margin: 1rem 0rem;
+    font-size: .8rem;
+    
+}
+label{
+    font-size: 2rem;
+    margin: auto;
+    width: 100%;
+    
+
+}
+.guessField{
+    font-size: 1.5rem;
+    margin: 1rem 0.2rem;
+    width: 60%;
+    border: 2px solid gray;
+    text-align: center;
+}
+
+.guessSubmit{
+
+    width: 50%;
+    padding: .5rem;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: black;
+
+}
+
+.lowOrHi{
+    background-color:#655858;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 2rem;
+}
+
+#newGame{
+    width: 50%;
+    padding: .5rem;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: black;
+     margin: auto;
+
+}
+
+
+/* ---for mobile screen---- */
+@media screen and (max-width: 768px) 
+{
+    img{
+         width:60px;
+        
+    }
+
+    .wrapper{
+        width:80%;
+      
+       padding: .5rem;
+    }
+    
+}
+
